@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.home.callcab"
+    android:versionCode="3"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.home.callcab.CallCabApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo"
+         >
+        <activity
+            android:name="com.home.callcab.SplashScreenActivity"
+            android:theme="@style/Theme.Fade" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.home.callcab.SelectCityActivity"
+            android:label="@string/title_activity_select_city" >
+        </activity>
+        <service android:name=".service.DataService"></service>
+        <activity android:name="CabListActivity" android:theme="@style/MyCustomTheme"></activity>
+        <activity android:name="OfferListActivity"></activity>
+        <activity android:name="VendorOfferListActivity" android:theme="@style/MyCustomTheme2"
+             >
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="CabListActivity" />
+            
+        </activity>
+    </application>
+
+</manifest>

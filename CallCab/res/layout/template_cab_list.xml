@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp" >
+    
+     <RelativeLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="15dp"
+			    android:background="#e2e3e5"
+			    android:id="@+id/metaPanel"
+			     >
+	<RelativeLayout 
+	    		android:id="@+id/offerCountContainer"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    >
+         							
+				 <TextView
+                    android:id="@+id/txtOfferCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:textColor="#A2A3A5"
+                    android:textSize="14dp" 
+                    android:text="2 Offers !"
+                    android:visibility="gone"
+                    />	     
+       </RelativeLayout>
+	<RelativeLayout
+	    		android:id="@+id/voteCountContainer"     
+	    		android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+			    >
+          
+				<ImageView
+		           android:id="@+id/imgUpVote"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:src="@drawable/ic_up_rate_cab"
+		           />			
+				 <TextView
+                    android:id="@+id/txtUpVoteCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imgUpVote"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#A2A3A5"
+                    android:textSize="14dp" 
+                    android:text="0"
+                    />			
+                    
+				<ImageView
+		           android:id="@+id/imgDownVote"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_toRightOf="@+id/txtUpVoteCount"
+		           android:src="@drawable/ic_down_vote_cab"
+		           />			
+				 <TextView
+                    android:id="@+id/txtDownVoteCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imgDownVote"
+                    android:paddingLeft="10dp"
+                    android:textColor="#A2A3A5"
+                    android:textSize="14dp"			
+					android:text="0"
+			        />
+	</RelativeLayout>
+	</RelativeLayout>
+    
+    
+    <RelativeLayout
+        android:id="@+id/itemWrap"
+        android:layout_below="@+id/metaPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/cab_item_bground"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:id="@+id/contentWrap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="5dp"
+                 >
+
+                <TextView
+                    android:id="@+id/vendorName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+                
+               
+
+                <TextView
+                    android:id="@+id/vendorNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/vendorName"
+                    android:paddingRight="10dp"
+                    android:textColor="#ffa2a3a5"
+                    android:visibility="gone"
+                    android:textSize="30dp" />
+                
+                                <TextView
+                    android:id="@+id/vendorNumberStdPart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/vendorName"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#ffc2c3c5"
+                    android:textSize="20dp" />
+                                
+                                                <TextView
+                    android:id="@+id/vendorNumberPattern"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/vendorName"
+                    android:layout_toRightOf="@id/vendorNumberStdPart"
+                    android:paddingRight="10dp"
+                    android:textColor="#ff000000"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/vendorUsp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/vendorNumberStdPart"
+                    android:textColor="#ff6e6969"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/iconSeperator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/vendorUsp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/solidline_light" />
+
+                <RelativeLayout
+                    android:id="@+id/btnContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iconSeperator"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp" >
+
+                    <Button
+                        android:id="@+id/btnCall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:drawableLeft="@drawable/ic_call_cab"
+                        android:height="32dp"
+                        android:minHeight="32dp"
+                        android:text="CALL"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <Button
+                        android:id="@+id/btnBook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@id/btnCall"
+                        android:background="#ffffff"
+                        android:drawableLeft="@drawable/ic_book_cab"
+                        android:height="32dp"
+                        android:minHeight="32dp"
+                        android:text=" BOOK"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+					<Button
+					    android:id="@+id/btnSend"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="8dp"
+					    android:layout_toRightOf="@id/btnBook"
+					    android:background="#ffffff"
+					    android:drawableLeft="@drawable/ic_share_cab"
+					    android:height="32dp"
+					    android:minHeight="32dp"
+					    android:text="SEND"
+					    android:textColor="#000"
+					    android:textSize="14dp" />
+					
+					<Button
+					    android:id="@+id/btnRate"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="8dp"
+					    android:layout_toRightOf="@id/btnSend"
+					    android:background="#ffffff"
+					    android:drawableLeft="@drawable/ic_rate_cab"
+					    android:height="32dp"
+					    android:minHeight="32dp"
+					    android:text="RATE"
+					    android:textColor="#000"
+					    android:textSize="14dp" 
+					    android:onClick="onBtnRateClick"
+					    />
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnSeperator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentWrap"
+            android:src="@drawable/solidline_light"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/offerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/offer_button"      
+        android:src="@drawable/offer_btn_img"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:onClick="onBtnShowOffer"
+        
+         />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cablist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<vendor>
+		<id>1400</id>
+		<name>Mega Cabs</name>
+		<number>+91 172 4141414</number>
+		<prenum>+91 172 </prenum>
+		<postnum>4141414</postnum>
+		<url>http://www.megacabs.com/city/chandigarh</url>
+		<logo>logo_mega</logo>
+		<usp>100% assured cab availability for airport</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1401</id>
+		<name>Fab Cabs</name>
+		<number>+91 172 42 42 424</number>
+		<prenum>+91 172 </prenum>
+		<postnum>42 42 424</postnum>
+		<url>http://www.fabcabs.in/</url>
+		<logo>logo_fabcabs</logo>
+		<usp>parcel delivery also available</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1402</id>
+		<name>Savaari</name>
+		<number>+91 93585 85237</number>
+		<prenum>+91 </prenum>
+		<postnum>93585 85237</postnum>
+		<url>http://www.savaari.com/Chandigarh-car-rental/Chandigarh-cab-taxi-hire-service-booking#tab1</url>
+		<logo>logo_savaari</logo>
+		<usp>no garage to garage biling</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1303</id>
+		<name>Clear Car Rental</name>
+		<number>+91 888 885 5220</number>
+		<prenum>+91 </prenum>
+		<postnum>888 885 5220</postnum>
+		<url>http://www.clearcarrental.com/chandigarh</url>
+		<logo>logo_clearcarrentals</logo>
+		<usp>tour packages available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+</cablist>

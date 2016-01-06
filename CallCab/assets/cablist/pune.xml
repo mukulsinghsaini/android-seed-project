@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cablist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<vendor>
+		<id>1123</id>
+		<name>Wings Radio Cabs</name>
+		<number>+91 20 4010 0100</number>
+		<prenum>+91 20 </prenum>
+		<postnum>4010 0100</postnum>
+		<url>http://www.wingsradiocabs.com/</url>
+		<logo>logo_wingsradiocab</logo>
+		<usp>carpool system available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1124</id>
+		<name>Unity Radio Cabs</name>
+		<number>+91 20 6200 6200</number>
+		<prenum>+91 20 </prenum>
+		<postnum>6200 6200</postnum>
+		<url>http://unityradiocabs.com/</url>
+		<logo>logo_unityradiocabs</logo>
+		<usp>monthly car rental also available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1125</id>
+		<name>TCabs</name>
+		<number>+91 20 6728 6728</number>
+		<prenum>+91 20 </prenum>
+		<postnum>6728 6728</postnum>
+		<url>http://www.tcabs.in/</url>
+		<logo>logo_tcabs</logo>
+		<usp>fare calculator available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1126</id>
+		<name>Ola Cab</name>
+		<number>+91 20 3355 3355</number>
+		<prenum>+91 20 </prenum>
+		<postnum>3355 3355</postnum>
+		<url>http://www.olacabs.com</url>
+		<logo>logo_olacabs</logo>
+		<usp>half day and full day rental feature also available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1127</id>
+		<name>Fast Track</name>
+		<number>+91 20 2888 9999</number>
+		<prenum>+91 20 </prenum>
+		<postnum>2888 9999</postnum>
+		<url>http://www.fasttrackcalltaxi.in/OnlineBooking.aspx</url>
+		<logo>logo_fasttrack</logo>
+		<usp>24 hours service</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1128</id>
+		<name>eCabs</name>
+		<number>+91 20 3045 4545</number>
+		<prenum>+91 20 </prenum>
+		<postnum>3045 4545</postnum>
+		<url>http://booking.ecabs.in/menu.php</url>
+		<logo>logo_ecabs</logo>
+		<usp>Mumbai, Pune service available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1129</id>
+		<name>Makson</name>
+		<number>+91 20 2588 5748</number>
+		<prenum>+91 20 </prenum>
+		<postnum>2588 5748</postnum>
+		<url>http://www.makson.co.in/</url>
+		<logo>logo_makson</logo>
+		<usp>vast variety of cars from Indica to Jaguar available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1130</id>
+		<name>Cel Cabs</name>
+		<number>+91 20 60 60 90 90</number>
+		<prenum>+91 20 </prenum>
+		<postnum>60 60 90 90</postnum>
+		<url>http://www.celcabs.com</url>
+		<logo>logo_celcabs</logo>
+		<usp>operating in 16 locations in India</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1131</id>
+		<name>Savaari</name>
+		<number>+91 93585 85237</number>
+		<prenum>+91 </prenum>
+		<postnum>93585 85237</postnum>
+		<url>http://www.savaari.com</url>
+		<logo>logo_savaari</logo>
+		<usp>luxury segments also available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1132</id>
+		<name>Book Cab</name>
+		<number>+91 80 3000 3000</number>
+		<prenum>+91 80 </prenum>
+		<postnum>3000 3000</postnum>
+		<url>http://www.bookcab.in</url>
+		<logo>logo_bookcab</logo>
+		<usp>travel on weekdays to save more</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1133</id>
+		<name>Get Me Cab</name>
+		<number>+91 93 1211 3322</number>
+		<prenum>+91 93 </prenum>
+		<postnum>1211 3322</postnum>
+		<url>http://www.getmecab.com</url>
+		<logo>logo_getmecab</logo>
+		<usp>no booking fees</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+</cablist>

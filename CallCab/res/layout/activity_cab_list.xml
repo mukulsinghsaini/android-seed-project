@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e2e3e5" >
+
+        <ScrollView
+            android:id="@+id/scrollerControl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="10dp"
+             >
+
+            <LinearLayout
+                android:id="@+id/linearlistRecentCalls"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"                
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/MsgContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#e2e3e5"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/OfferNote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_weight="0.5"
+                        android:background="#ffffff"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            >
+
+
+				            <ImageView
+				                android:id="@+id/OfferDashImage"
+				                android:layout_width="match_parent"
+				                android:layout_height="wrap_content"
+				                android:paddingTop="5dp"
+				                android:src="@drawable/dash_offer_icon" />
+
+                            <TextView
+                                android:id="@+id/txtOfferMsgCircle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:textSize="15dp"
+                                android:layout_below="@+id/OfferDashImage"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center"
+                                 >
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/btnViewOfferMsg"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:background="#ffcc44"
+                                android:height="32dp"
+                                android:minHeight="32dp"
+                                android:text="View"
+                                android:textColor="#000"
+                                android:textSize="16dp"
+                                android:onClick="onViewOfferBtnClick"
+                                 />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/RecentCallNote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_weight="0.5"
+                        android:layout_marginLeft="5dp"
+                        android:background="#ffffff"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                             >
+
+<!--                             <TextView -->
+<!--                                 android:id="@+id/txtRecentMsg" -->
+<!--                                 android:layout_width="match_parent" -->
+<!--                                 android:layout_height="wrap_content" -->
+<!--                                 android:layout_marginTop="5dp" -->
+<!--                                 android:gravity="center_horizontal" -->
+<!--                                 android:textSize="16dp" -->
+<!--                                 android:textStyle="bold" -->
+<!--                                 android:text="LAST CALL" > -->
+<!--                             </TextView> -->
+
+				            <ImageView
+				                android:id="@+id/LastCallDashImage"
+				                android:layout_width="match_parent"
+				                android:layout_height="wrap_content"
+				                android:paddingTop="5dp"
+				                android:src="@drawable/dash_call_history_icon" />
+
+
+                            <TextView
+                                android:id="@+id/txtRecentMsgCircle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/LastCallDashImage"
+                                android:layout_marginTop="19dp"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center"
+                                android:text="Taxi For Sure"
+                                android:textSize="15dp"
+                                 >
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/btnRecentCallMsg"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_alignParentBottom="true"
+                                android:background="#ffcc44"
+                                android:height="32dp"
+                                android:minHeight="32dp"
+                                android:text="Call Again"
+                                android:textColor="#000"
+                                android:textSize="16dp"
+                                android:onClick="onBtnCallClicked"
+                                 />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cabList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <!-- The navigation drawer -->
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="48dp"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:orientation="vertical"
+        android:dividerHeight="0dp" >
+		<ScrollView
+            android:id="@+id/scrollerControl0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+             >
+		        <LinearLayout
+		            android:id="@+id/SCAcityRdList"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:background="#fff"
+		            android:orientation="vertical"
+		            android:padding="10dp"
+		            android:textColor="#000"
+		            android:textSize="20dp"
+		            android:textStyle="bold" >  
+		            </LinearLayout>              
+        
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

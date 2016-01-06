@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item
+      android:id="@+id/changeCity"
+      android:icon="@drawable/select_location"
+      android:showAsAction="always|withText"
+      android:title="City">
+   </item>
+   <item
+      android:id="@+id/refreshData"
+      android:icon="@drawable/ic_menu_refresh"
+      android:showAsAction="ifRoom|withText"
+      android:title="Refresh">
+   </item>
+   <item
+      android:id="@+id/about"
+      android:icon="@drawable/ic_menu_back"
+      android:showAsAction="ifRoom"
+      android:title="About">
+   </item>
+<!--    <item
+    android:id="@+id/cab_filter_spinner"
+    android:showAsAction="always"
+    android:actionViewClass="android.widget.Spinner" /> -->
+</menu>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cablist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<vendor>
+		<id>1100</id>
+		<name>Viira Cabs</name>
+		<number>+91 22 6120 6120</number>
+		<prenum>+91 22 </prenum>
+		<postnum>6120 6120</postnum>
+		<url>http://viiracabs.com/</url>
+		<logo>logo_viiracabs</logo>
+		<usp>taxi service for women</usp>
+		<outstation>false</outstation>
+		<local>false</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1101</id>
+		<name>Mega Cabs</name>
+		<number>+91 22 4242 4242</number>
+		<prenum>+91 22 </prenum>
+		<postnum>4242 4242</postnum>
+		<url>http://www.megacabs.com</url>
+		<logo>logo_mega</logo>
+		<usp>100% assured cab availability for airport</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1102</id>
+		<name>Meru</name>
+		<number>+91 22 44 22 44 22</number>
+		<prenum>+91 22 </prenum>
+		<postnum>44 22 44 22</postnum>
+		<url>http://www.merucabs.com/</url>
+		<logo>logo_meru</logo>
+		<usp>voted as best cab service</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1103</id>
+		<name>Ola Cab</name>
+		<number>+91 22 3355 3355</number>
+		<prenum>+91 22 </prenum>
+		<postnum>3355 3355</postnum>
+		<url>http://www.olacabs.com</url>
+		<logo>logo_olacabs</logo>
+		<usp>revolutionary app and many offers</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1104</id>
+		<name>Easy Cabs</name>
+		<number>+91 22 43 43 43 43</number>
+		<prenum>+91 22 </prenum>
+		<postnum>43 43 43 43</postnum>
+		<url>http://www.easycabs.com/</url>
+		<logo>logo_easycabs</logo>
+		<usp>radio taxis,rentals and leasing</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1105</id>
+		<name>Tab Cab</name>
+		<number>+91 22 6363 6363</number>
+		<prenum>+91 22 </prenum>
+		<postnum>6363 6363</postnum>
+		<url>http://www.tabcab.in</url>
+		<logo>logo_tabcab</logo>
+		<usp>operates with Toyota and Maruti Suzuki SX4 with fitted 3G tablet</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1106</id>
+		<name>Savaari</name>
+		<number>+91 93585 85237</number>
+		<prenum>+91 </prenum>
+		<postnum>93585 85237</postnum>
+		<url>http://www.savaari.com</url>
+		<logo>logo_savaari</logo>
+		<usp>no garage to garage billing</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1107</id>
+		<name>Book Cab</name>
+		<number>+91 80 3000 3000</number>
+		<prenum>+91 80 </prenum>
+		<postnum>3000 3000</postnum>
+		<url>http://www.bookcab.in</url>
+		<logo>logo_bookcab</logo>
+		<usp>offers book early and pay less</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1108</id>
+		<name>City Cool Cabs</name>
+		<number>+91 22 2216 4466</number>
+		<prenum>+91 22 </prenum>
+		<postnum>2216 4466</postnum>
+		<url>http://www.citycoolcab.in/</url>
+		<logo>logo_citycoolcab</logo>
+		<usp>offers many tour and trip packages</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1109</id>
+		<name>Get Me Cab</name>
+		<number>+91 93 1211 3322</number>
+		<prenum>+91 93 </prenum>
+		<postnum>1211 3322</postnum>
+		<url>http://www.getmecab.com</url>
+		<logo>logo_getmecab</logo>
+		<usp>select from different vendors</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1110</id>
+		<name>Book My Cab</name>
+		<number>+91 22 6123 4567</number>
+		<prenum>+91 22 </prenum>
+		<postnum>6123 4567</postnum>
+		<url>http://www.bookmycab.com</url>
+		<logo>logo_bookmycab</logo>
+		<usp>40% less fare than radio taxi</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	
+</cablist>

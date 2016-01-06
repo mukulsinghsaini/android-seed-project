@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cablist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<vendor>
+		<id>1062</id>
+		<name>Cel Cabs</name>
+		<number>+91 40 60 60 90 90</number>
+		<prenum>+91 40 </prenum>
+		<postnum>60 60 90 90</postnum>
+		<url>http://www.celcabs.com</url>
+		<logo>logo_celcabs</logo>
+		<usp>operating in 16 locations in India</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1063</id>
+		<name>Delta Cabs</name>
+		<number>+91 40 3022 2277</number>
+		<prenum>+91 40 </prenum>
+		<postnum>3022 2277</postnum>
+		<url>http://www.deltaacabs.com/home.html</url>
+		<logo>logo_deltacabs</logo>
+		<usp>24 Hours service</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1064</id>
+		<name>Dot Cabs</name>
+		<number>+91 40 2424 2424</number>
+		<prenum>+91 40 </prenum>
+		<postnum>2424 2424</postnum>
+		<url>http://www.dotcabs.com/</url>
+		<logo>logo_dotcabs</logo>
+		<usp>source a cab within 30 minutes</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1065</id>
+		<name>Easy Cabs</name>
+		<number>+91 40 43 43 43 43</number>
+		<prenum>+91 40 </prenum>
+		<postnum>43 43 43 43</postnum>
+		<url>http://www.easycabs.com/</url>
+		<logo>logo_easycabs</logo>
+		<usp>radio taxis,rentals and leasing</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1066</id>
+		<name>Fast Track</name>
+		<number>+91 40 2888 9999</number>
+		<prenum>+91 40 </prenum>
+		<postnum>2888 9999</postnum>
+		<url>http://www.fasttrackcalltaxi.in/OnlineBooking.aspx</url>
+		<logo>logo_fasttrack</logo>
+		<usp>city tours,airport transfers and corporate rentals</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1067</id>
+		<name>Yellow Cabs</name>
+		<number>+91 40 4747 4747</number>
+		<prenum>+91 40 </prenum>
+		<postnum>4747 4747</postnum>
+		<url>http://www.yellowcabshyd.com/</url>
+		<logo>logo_yellowcabs</logo>
+		<usp>24 hours service</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1068</id>
+		<name>Green Cabs</name>
+		<number>+91 40 2460 6060</number>
+		<prenum>+91 40 </prenum>
+		<postnum>2460 6060</postnum>
+		<url>http://www.greencab.co.in/tariff.html</url>
+		<logo>logo_greencabs</logo>
+		<usp>cab provided within 20 minutes</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1069</id>
+		<name>Meru</name>
+		<number>+91 40 44 22 44 22</number>
+		<prenum>+91 40 </prenum>
+		<postnum>44 22 44 22</postnum>
+		<url>http://www.merucabs.com/</url>
+		<logo>logo_meru</logo>
+		<usp>voted as best cab service</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1070</id>
+		<name>Orange Cabs</name>
+		<number>+91 40 4445 4647</number>
+		<prenum>+91 40 </prenum>
+		<postnum>4445 4647</postnum>
+		<url>http://www.orangecabs.com/</url>
+		<logo>logo_orangecabs</logo>
+		<usp>wide range of packages</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1071</id>
+		<name>Savaari</name>
+		<number>+91 93585 85237</number>
+		<prenum>+91 </prenum>
+		<postnum>93585 85237</postnum>
+		<url>http://www.savaari.com</url>
+		<logo>logo_savaari</logo>
+		<usp>luxury segment also available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1072</id>
+		<name>Sigma Cabs</name>
+		<number>+91 40 63 63 63 63</number>
+		<prenum>+91 40 </prenum>
+		<postnum>63 63 63 63</postnum>
+		<url>http://www.sigmacabs.com/</url>
+		<logo>logo_sigmacabs</logo>
+		<usp>100% cab availability for airport</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1073</id>
+		<name>Get Me Cab</name>
+		<number>+91 93 1211 3322</number>
+		<prenum>+91 40 </prenum>
+		<postnum>1211 3322</postnum>
+		<url>http://www.getmecab.com</url>
+		<logo>logo_getmecab</logo>
+		<usp>select from different vendors</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1074</id>
+		<name>Zee Cabs</name>
+		<number>+91 40 4242 4242</number>
+		<prenum>+91 40 </prenum>
+		<postnum>4242 4242</postnum>
+		<url>http://www.zeecabs.com/</url>
+		<logo>logo_zeecabs</logo>
+		<usp>24 hours service</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+</cablist>

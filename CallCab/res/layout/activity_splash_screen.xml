@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffffff"
+    tools:context=".MainActivity" >
+
+<!-- <ImageView android:layout_width="match_parent" -->
+<!--     android:layout_height="match_parent" -->
+<!--     android:scaleType="centerCrop" -->
+<!--    android:src="@drawable/bg2"/> -->
+
+<ImageView 
+    android:id="@+id/callcabbetalogo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+	android:layout_centerVertical="true"
+    android:scaleType="center"    
+    android:src="@drawable/callcab_app_icon"/>
+
+<TextView 
+	android:id="@+id/callcabAppName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/callcabbetalogo"
+    android:layout_marginTop="10dp"
+    android:text="CallCab"
+	android:textSize="25dp"
+	android:textColor="#929395"
+	android:textStyle="bold"
+    />
+
+<TextView 
+	android:id="@+id/callcabMoto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/callcabAppName"
+    android:text="cabs anytime anywhere !"
+	android:textSize="20dp"
+	android:textColor="#c2c3c5"
+    />
+
+
+
+<ProgressBar
+    android:id="@+id/progressBar1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/callcabbetalogo"
+    android:layout_centerHorizontal="true"
+    android:visibility="invisible"
+     />
+
+</RelativeLayout>

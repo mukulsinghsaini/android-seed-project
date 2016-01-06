@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cablist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<vendor>
+		<id>1028</id>
+		<name>NTL Taxi</name>
+		<number>+91 44 3000 3000</number>
+		<prenum>+91 44 </prenum>
+		<postnum>3000 3000</postnum>
+		<url>http://www.ntltaxi.com/</url>
+		<logo>logo_ntltaxi</logo>
+		<usp>track vehicle on map</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1029</id>
+		<name>Bharathi Call Taxi</name>
+		<number>+91 44 3000 2000</number>
+		<prenum>+91 44 </prenum>
+		<postnum>3000 2000</postnum>
+		<url>http://www.bharathicalltaxi.in/</url>
+		<logo>logo_bharathi</logo>
+		<usp>SMS BCT 56677 to receive a call from them</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1030</id>
+		<name>Savaari</name>
+		<number>+91 93585 85237</number>
+		<prenum>+91 </prenum>
+		<postnum>93585 85237</postnum>
+		<url>http://www.savaari.com</url>
+		<logo>logo_savaari</logo>
+		<usp>luxury segment also available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1031</id>
+		<name>Run Track Call Taxi</name>
+		<number>+91 44 2484 3939</number>
+		<prenum>+91 44 </prenum>
+		<postnum>2484 3939</postnum>
+		<url>http://www.runtrackcalltaxi.in/</url>
+		<logo>logo_runtrackcalltaxi</logo>
+		<usp>wide range of vehicles</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1032</id>
+		<name>Book Cab</name>
+		<number>+91 80 3000 3000</number>
+		<prenum>+91 80 </prenum>
+		<postnum>3000 3000</postnum>
+		<url>http://www.bookcab.in</url>
+		<logo>logo_bookcab</logo>
+		<usp>offers book early and pay less</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1033</id>
+		<name>Clear Car Rental </name>
+		<number>+91 88 8885 5220</number>
+		<prenum>+91 88 </prenum>
+		<postnum>8885 5220</postnum>
+		<url>http://www.clearcarrental.com/</url>
+		<logo>logo_clearcarrentals</logo>
+		<usp>good online booking interface</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1034</id>
+		<name>Get Me Cab</name>
+		<number>+91 93 1211 3322</number>
+		<prenum>+91 93 </prenum>
+		<postnum>1211 3322</postnum>
+		<url>http://www.getmecab.com</url>
+		<logo>logo_getmecab</logo>
+		<usp>select from different vendors</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	
+</cablist>

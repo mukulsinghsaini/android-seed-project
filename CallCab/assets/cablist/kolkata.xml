@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cablist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<vendor>
+		<id>1088</id>
+		<name>Mega Cabs</name>
+		<number>+91 33 4141 4141</number>
+		<prenum>+91 33 </prenum>
+		<postnum>4141 4141</postnum>
+		<url>http://www.megacabs.com</url>
+		<logo>logo_mega</logo>
+		<usp>100% assured cab availability for airport</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1089</id>
+		<name>Fast Track</name>
+		<number>+91 33 2888 9999</number>
+		<prenum>+91 33 </prenum>
+		<postnum>2888 9999</postnum>
+		<url>http://www.fasttrackcalltaxi.in/OnlineBooking.aspx</url>
+		<logo>logo_fasttrack</logo>
+		<usp>city tours,airport transfers and corporate rentals</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1090</id>
+		<name>Savaari</name>
+		<number>+91 93585 85237</number>
+		<prenum>+91 </prenum>
+		<postnum>93585 85237</postnum>
+		<url>http://www.savaari.com</url>
+		<logo>logo_savaari</logo>
+		<usp>no garage to garage billing</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>10901</id>
+		<name>Clear Car Rental</name>
+		<number>+91 888 885 5220</number>
+		<prenum>+91 </prenum>
+		<postnum>888 885 5220</postnum>
+		<url>http://www.clearcarrental.com/kolkata</url>
+		<logo>logo_clearcarrentals</logo>
+		<usp>good online booking interface</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+</cablist>

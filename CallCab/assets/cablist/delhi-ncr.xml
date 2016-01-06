@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cablist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<vendor>
+		<id>1038</id>
+		<name>Meru</name>
+		<number>+91 11 44 22 44 22</number>
+		<prenum>+91 11 </prenum>
+		<postnum>44 22 44 22</postnum>
+		<url>http://www.merucabs.com/</url>
+		<logo>logo_meru</logo>
+		<usp>voted as best cab service</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1039</id>
+		<name>Mega Cabs</name>
+		<number>+91 11 4141 4141</number>
+		<prenum>+91 11 </prenum>
+		<postnum>4141 4141</postnum>
+		<url>http://www.megacabs.com</url>
+		<logo>logo_mega</logo>
+		<usp>100% assured cab availability for airport</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1040</id>
+		<name>Easy Cabs</name>
+		<number>+91 11 43 43 43 43</number>
+		<prenum>+91 11 </prenum>
+		<postnum>43 43 43 43</postnum>
+		<url>http://www.easycabs.com/</url>
+		<logo>logo_easycabs</logo>
+		<usp>radio taxis,rentals and leasing</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1041</id>
+		<name>Taxi For Sure</name>
+		<number>+91 11 6060 1010</number>
+		<prenum>+91 11 </prenum>
+		<postnum>6060 1010</postnum>
+		<url>http://www.taxiforsure.com/</url>
+		<logo>logo_taxiforsure</logo>
+		<usp>local hire at Rs 12 per Km *</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1042</id>
+		<name>Iris Cabs</name>
+		<number>+91 11 4433 4433</number>
+		<prenum>+91 11 </prenum>
+		<postnum>4433 4433</postnum>
+		<url>http://www.iriscabs.com/IRHome.aspx</url>
+		<logo>logo_iriscabs</logo>
+		<usp>shared, pooled cabs for office, spcl one way outstation package</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1043</id>
+		<name>Mango Cabs</name>
+		<number>+91 11 6363 6363</number>
+		<prenum>+91 11 </prenum>
+		<postnum>6363 6363</postnum>
+		<url>http://www.mangocabs.com/</url>
+		<logo>logo_mangocabs</logo>
+		<usp>AC cabs for Rs 10 per Km *</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1044</id>
+		<name>Quick Cabs</name>
+		<number>+91 11 6767 6767</number>
+		<prenum>+91 11 </prenum>
+		<postnum>6767 6767</postnum>
+		<url>http://quickcabs.in/track/dispatch_client_login.php</url>
+		<logo>logo_quickcabs</logo>
+		<usp>economic @ Rs 10 per Km *</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1045</id>
+		<name>Book Cab</name>
+		<number>+91 80 3000 3000</number>
+		<prenum>+91 80 </prenum>
+		<postnum>3000 3000</postnum>
+		<url>http://www.bookcab.in</url>
+		<logo>logo_bookcab</logo>
+		<usp>offers book early and pay less</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1046</id>
+		<name>Ola Cab</name>
+		<number>+91 11 3355 3355</number>
+		<prenum>+91 11 </prenum>
+		<postnum>3355 3355</postnum>
+		<url>http://www.olacabs.com</url>
+		<logo>logo_olacabs</logo>
+		<usp>revolutionary app and many offers</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1047</id>
+		<name>Get Me Cab</name>
+		<number>+91 93 1211 3322</number>
+		<prenum>+91 93 </prenum>
+		<postnum>1211 3322</postnum>
+		<url>http://www.getmecab.com</url>
+		<logo>logo_getmecab</logo>
+		<usp>select from different vendors</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1048</id>
+		<name>Wyn Cabs</name>
+		<number>+91 11 4800 0000</number>
+		<prenum>+91 11 </prenum>
+		<postnum>4800 0000</postnum>
+		<url>http://www.wyncabs.com/</url>
+		<logo>logo_wyncabs</logo>
+		<usp>operates with Hyundai Accent cars</usp>
+		<outstation>false</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1049</id>
+		<name>Yo Cabs</name>
+		<number>+91 11 4466 4466</number>
+		<prenum>+91 11 </prenum>
+		<postnum>4466 4466</postnum>
+		<url>http://yocabs.com/</url>
+		<logo>logo_yocabs</logo>
+		<usp>AC cabs for Rs 17 per Km *</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	
+</cablist>

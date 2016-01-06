@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp" >
+
+    <RelativeLayout
+        android:id="@+id/itemWrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_rectangle"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/offerContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/OlofferDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff000000"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/Olsolidline1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/OlofferDescription"
+                android:paddingTop="5dp"
+                android:src="@drawable/solidline_light" />
+
+            <LinearLayout
+                android:id="@+id/OlOfferTitleContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Olsolidline1"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/offer_btn_img" />
+
+                <TextView
+                    android:id="@+id/OlofferTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/OlsolidLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/OlOfferTitleContainer"
+                android:paddingBottom="5dp"
+                android:src="@drawable/solidline_light" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/OlsolidLine2"
+                 >
+
+                <TextView
+                    android:id="@+id/OlvendorName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="15dp"
+                    android:textColor="#ff6e6969"
+                     />
+
+             <TextView
+                    android:id="@+id/OllabelLastRevised"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10dp"
+                    android:text="Last revised on"
+                    android:textColor="#ff6e6969"
+                     />
+                
+                <TextView
+                    android:id="@+id/OlofferRevisedOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/OllabelLastRevised"
+                    android:layout_alignParentRight="true"
+                    android:textSize="15dp"
+                    android:textColor="#ff6e6969"
+                     />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

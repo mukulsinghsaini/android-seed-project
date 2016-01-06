@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cablist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<vendor>
+		<id>1300</id>
+		<name>My Cab</name>
+		<number>+91 141 5 000 000</number>
+		<prenum>+91 141 </prenum>
+		<postnum>5 000 000</postnum>
+		<url>http://www.mycabs.in/</url>
+		<logo>logo_mycab</logo>
+		<usp>tariff rate Rs 15/Km</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1301</id>
+		<name>Metro Cab</name>
+		<number>+91 141 42 44 444</number>
+		<prenum>+91 141 </prenum>
+		<postnum>42 44 444</postnum>
+		<url>http://www.metrocabs.in/index.html</url>
+		<logo>logo_metrocabs</logo>
+		<usp>panic button for emergency</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1302</id>
+		<name>Carzonrent Cab</name>
+		<number>+91 888 222 2222</number>
+		<prenum>+91 </prenum>
+		<postnum>888 222 2222</postnum>
+		<url>http://www.carzonrent.com/car-rental-Jaipur-10/</url>
+		<logo>logo_carzonrent</logo>
+		<usp>pay by cash or card</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+	<vendor>
+		<id>1303</id>
+		<name>Clear Car Rental</name>
+		<number>+91 888 885 5220</number>
+		<prenum>+91 </prenum>
+		<postnum>888 885 5220</postnum>
+		<url>http://www.clearcarrental.com/jaipur</url>
+		<logo>logo_clearcarrentals</logo>
+		<usp>tour packages available</usp>
+		<outstation>true</outstation>
+		<local>true</local>
+		<airport>true</airport>
+	</vendor>
+</cablist>
